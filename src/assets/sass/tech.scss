@@ -23,6 +23,7 @@
         align-items: center;
         justify-content: flex-end;
         height: 100%;
+        width: 100%;
         text-align: center;
         padding: 55px 24px 24px;
         border-radius: 15px;
@@ -31,18 +32,22 @@
 
         @media screen and (max-width: $lg) {
             padding-top: 44px;
+
         }
 
         .tech__card-img-wrap {
-            width: 100%;
+
             height: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
+
         }
         img {
+            width: 100%;
             border-radius: 15px;
             margin-bottom: 12px;
+
         }
         .tech__card-name {
             font-size: 18px;
